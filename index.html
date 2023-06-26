@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=0.75">
+   <title>MINIMAL</title>
+   <link rel="stylesheet" href="/css/style.min.css">
+</head>
+
+<body>
+
+   <div id="modal" class="modal">
+      <div class="modal__box column">
+
+         <div id="close-modal-btn" class="modal__bar"></div>
+
+         <span class="modal__close">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M6.36401 19.0918L19.0919 6.36388" stroke="black" stroke-width="2" />
+               <line x1="19.0918" y1="19.0919" x2="6.36392" y2="6.36395" stroke="black" stroke-width="2" />
+            </svg>
+         </span>
+
+         <div class="modal__title title">Welcome to</div>
+         <img src="/img/Logo.svg" class="modal__logo">
+         <div class="modal__line line"></div>
+         <div class="modal__form column">
+            <input class="modal__input" type="text" id="username" name="username" placeholder="Username">
+            <input class="modal__input" type="password" id="password" name="password" placeholder="Password">
+         </div>
+         <button id="" class="modal__formbtn">Sign in</button>
+         <a href="#" class="modal__reg hh">Register</a>
+
+      </div>
+   </div>
+
+   <section class="section">
+      <container class="container">
+         <header class="header row">
+            <div class="header__logo">
+               <img src="/img/Logo.svg">
+            </div>
+
+            <div id="burger" class="header__burger">
+               <img src="/img/Burger.svg">
+            </div>
+            <nav id="menu" class="menu">
+               <ul class="menu__list">
+                  <li><a href="#main" class="menu__link">main</a></li>
+                  <li><a href="#process" class="menu__link">process</a></li>
+                  <li><a href="#projects" class="menu__link">projects</a></li>
+                  <li><a href="#ourTeam" class="menu__link">team</a></li>
+                  <li><a href="#contact" class="menu__link">contact</a></li>
+                  <li><button id="open-modal-btn" class="menu__link button">Sign in</button></li>
+               </ul>
+            </nav>
+         </header>
+      </container>
+   </section>
+
+   <div class="marg"></div>
+
+
+   <section id="main" class="section main">
+      <container class="container">
+         <div class="mainpage column">
+            <a class="mainpage__title title">Making brands stand out is our obsession</a>
+            <div class="mainpage__line line"></div>
+            <a class="mainpage__hh hh">Let us help your brand stand out.</a>
+         </div>
+      </container>
+   </section>
+
+   <section class="section aftermain">
+      <container class="container">
+         <div class="aftermain column">
+            <a class="aftermain__hh hh">Minimalist is a full-service digital creative agency located in Ontorio Canada.
+               We focus on design, consulting, technology, and photography. We’ve been building unique digital products,
+               platforms, and experiences for the past 6 years. Let us help your company grow.</a>
+            <button class="aftermain__button button">Get in Touch</button>
+         </div>
+      </container>
+   </section>
+
+   <section id="process" class="section ">
+      <container class="container">
+         <div class="brands column">
+            <a class="brands__title title">How we make brands thrive</a>
+            <div class="brands__line line"></div>
+            <div class="brands__cards row">
+               <div class="card column">
+                  <img src="/img/Card1.png" alt="" class="card__img">
+                  <a class="card__title title">SET a target</a>
+                  <a class="card__hh hh">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                     enim in eros elementum tristique.</a>
+               </div>
+
+               <div class="card column">
+                  <img src="/img/Card2.png" alt="" class="card__img">
+                  <a class="card__title title">design a solution</a>
+                  <a class="card__hh hh">Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
+                     libero vitae erat.</a>
+               </div>
+
+               <div class="card column">
+                  <img src="/img/Card3.png" alt="" class="card__img">
+                  <a class="card__title title">track the progress</a>
+                  <a class="card__hh hh">Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem
+                     vitae risus tristique posuere.</a>
+               </div>
+            </div>
+         </div>
+      </container>
+   </section>
+
+
+   <section id="projects" class="section gray">
+      <container class="container">
+         <div class="recent column">
+            <a class="recent__title title">Recent projects</a>
+            <div class="recent__line line"></div>
+
+            <div class="tabs">
+
+               <div class="tabs__nav row">
+                  <button class="tabs__nav-btn active" type="button" data-tab="#tab_1">PHOTOGRAPHY</button>
+                  <button class="tabs__nav-btn" type="button" data-tab="#tab_2">WEBSITES</button>
+               </div>
+
+               <div class="tabs__content column">
+
+                  <div class="tabs__item row active" id="tab_1">
+                     <div class="tabs__card column">
+                        <img src="/img/c1.png" alt="">
+                        <a class="tabs__title title">woods</a>
+                        <a class="tabs__hh hh">Photography</a>
+                     </div>
+
+                     <div class="tabs__card column">
+                        <img src="/img/c2.png" alt="">
+                        <a class="tabs__title title">path</a>
+                        <a class="tabs__hh hh">Photography</a>
+                     </div>
+
+                     <div class="tabs__card column">
+                        <img src="/img/c3.png" alt="">
+                        <a class="tabs__title title">waves</a>
+                        <a class="tabs__hh hh">Photography</a>
+                     </div>
+                  </div>
+
+                  <div class="tabs__item row" id="tab_2">
+                     <div class="tabs__card column">
+                        <img src="/img/c4.png" alt="">
+                        <a class="tabs__title title">town</a>
+                        <a class="tabs__hh hh">Website</a>
+                     </div>
+
+                     <div class="tabs__card column">
+                        <img src="/img/c5.png" alt="">
+                        <a class="tabs__title title">mountain</a>
+                        <a class="tabs__hh hh">Website</a>
+                     </div>
+
+                     <div class="tabs__card column">
+                        <img src="/img/c6.png" alt="">
+                        <a class="tabs__title title">camera</a>
+                        <a class="tabs__hh hh">Website</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </container>
+   </section>
+
+
+   <section id="ourTeam" class="section">
+      <container class="container">
+         <div class="team column">
+            <div class="team__title title">Our team</div>
+            <div class="team__line line"></div>
+            <div class="team__container">
+               <div class="slider">
+                  <div class="slider__line row">
+                     <div class="slider__block column">
+                        <img src="/img/s1.png" alt="" class="slider__img">
+                        <a class="slider__title title">Ron Swanson</a>
+                        <a class="slider__hh hh">Founder</a>
+                     </div>
+                     <div class="slider__block column">
+                        <img src="/img/s2.png" alt="" class="slider__img">
+                        <a class="slider__title title">Julia Depish</a>
+                        <a class="slider__hh hh">Marketing</a>
+                     </div>
+                     <div class="slider__block column">
+                        <img src="/img/s3.png" alt="" class="slider__img">
+                        <a class="slider__title title">Danny Devry</a>
+                        <a class="slider__hh hh">Designer</a>
+                     </div>
+                     <div class="slider__block column">
+                        <img src="/img/s4.png" alt="" class="slider__img">
+                        <a class="slider__title title">Lisa Smith</a>
+                        <a class="slider__hh hh">Developer</a>
+                     </div>
+                  </div>
+               
+               <button class="slider__prev"><</button>
+               <button class="slider__next">></button>
+               </div>
+            </div>
+         </div>
+      </container>
+   </section>
+
+
+   <section class="section gray">
+      <container class="container">
+         <img src="/img/Apos.svg" alt="" class="apos">
+         <div class="report__row row">
+            <div class="report__column column">
+               <a class="report__hh hh">“I love these guys! They did a great job. I would recommend them to anyone.”</a>
+               <img src="/img/Von.png" alt="" class="report__avatar">
+               <a class="report__title title">Julius Von Uberstien</a>
+            </div>
+            <div class="report__line"></div>
+            <div class="report__column column">
+               <a class="report__hh hh">“Elexis Corp. has grown immensely with the help of Minimal.”</a>
+               <img src="/img/Rachel.png" alt="" class="report__avatar">
+               <a class="report__title title">Rachel Stamos</a>
+            </div>
+         </div>
+         </div>
+      </container>
+   </section>
+
+
+   <section class="section">
+      <container class="container">
+         <div class="faq column">
+            <a class="faq__title title">FAQ</a>
+            <div class="faq__line line"></div>
+            <div class="faq__column">
+               <ul>
+                  <li class="acc">
+                     <div class="acc__icon">+</div>
+                     <div class="acc__button" aria-expanded="false">Do you offer retouching or editing services?</div>
+                     <div class="acc__content hh" aria-hidden="true">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Id maiores minus optio corrupti neque amet rem suscipit ipsam asperiores illo veniam
+                        cumque odio, cum sequi, sapiente, facere eos voluptatum deleniti.</div>
+                  </li>
+                  <li class="acc">
+                     <div class="acc__icon">+</div>
+                     <div class="acc__button" aria-expanded="false">What is your cancellation policy?</div>
+                     <div class="acc__content hh" aria-hidden="true">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Id maiores minus optio corrupti neque amet rem suscipit ipsam asperiores illo veniam
+                        cumque odio, cum sequi, sapiente, facere eos voluptatum deleniti.</div>
+                  </li>
+                  <li class="acc">
+                     <div class="acc__icon">+</div>
+                     <div class="acc__button" aria-expanded="false">Can I protect everything on my website?</div>
+                     <div class="acc__content hh" aria-hidden="true">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Id maiores minus optio corrupti neque amet rem suscipit ipsam asperiores illo veniam
+                        cumque odio, cum sequi, sapiente, facere eos voluptatum deleniti.</div>
+                  </li>
+                  <li class="acc">
+                     <div class="acc__icon">+</div>
+                     <div class="acc__button" aria-expanded="false">What is your turnaround time for delivering final
+                        products?</div>
+                     <div class="acc__content hh" aria-hidden="true">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Id maiores minus optio corrupti neque amet rem suscipit ipsam asperiores illo veniam
+                        cumque odio, cum sequi, sapiente, facere eos voluptatum deleniti.</div>
+                  </li>
+                  <li class="acc">
+                     <div class="acc__icon">+</div>
+                     <div class="acc__button" aria-expanded="false">What is your availability for booking?</div>
+                     <div class="acc__content hh" aria-hidden="true">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Id maiores minus optio corrupti neque amet rem suscipit ipsam asperiores illo veniam
+                        cumque odio, cum sequi, sapiente, facere eos voluptatum deleniti.</div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </container>
+   </section>
+
+   <section id="contact" class="section soc">
+      <container class="container">
+         <div class="socials column">
+            <a class="socials__title title">LET’s Get in touch</a>
+            <div class="socials__line line"></div>
+            <div class="socials__row row">
+               <div class="socials__item column">
+                  <div class="item__icon"><img src="/img/Mark.png" alt=""></div>
+                  <a class="item__title title">MEET US IN PERSON</a>
+                  <a class="item__hh hh">8776 Juniper Street
+                     Unit #204
+                     Merriweather, Ontorio
+                     Canada</a>
+               </div>
+
+               <div class="socials__item column">
+                  <div class="item__icon"><img src="/img/Mail.png" alt=""></div>
+                  <a class="item__title title">The traditional way</a>
+                  <a class="item__hh hh">Email us contact@minimal.com</a>
+               </div>
+
+               <div class="socials__item column">
+                  <div class="item__icon"><img src="/img/Heart.png" alt=""></div>
+                  <a class="item__title_mb title">Let’s get social</a>
+                  <div class="item__row row">
+                     <a href="#" class="item__si"><img src="/img/Fb.svg" alt=""></a>
+                     <a href="#" class="item__si"><img src="/img/Tw.svg" alt=""></a>
+                     <a href="#" class="item__si"><img src="/img/Linkdin.svg" alt=""></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </container>
+   </section>
+
+
+   <section class="section black">
+      <container class="container">
+         <footer class="footer column">
+            <img src="/img/FootLogo.png" alt="">
+         </footer>
+      </container>
+   </section>
+
+
+   <script src="js/script.js"></script>
+   <script src="js/slider.js"></script>
+</body>
+
+</html>
